@@ -13,10 +13,9 @@ filesystem:
   - fs
 
 libs:
-  - origin: ../HX711  
+  - origin: https://github.com/meticulousCraftman/HX711
 
-binary_libs:
-    - ../HX711/build/lib.a
+
 
 tags:
   - c
