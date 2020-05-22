@@ -2,6 +2,5 @@
 
 ## Overview
 
-This is an empty app, serves as a skeleton for building Mongoose OS
-apps from scratch.
+This is an HX711 tets app, serves as a testing app for arduino ported HX711 lib.
 
