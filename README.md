@@ -1,4 +1,4 @@
-# A blank Mongoose OS app
+# A HX711 testing Mongoose OS app
 
 ## Overview
 
