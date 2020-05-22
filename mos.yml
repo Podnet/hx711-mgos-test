@@ -1,0 +1,25 @@
+name: HX711-Test
+author: Hrithik Yadav <hrithikyadav@thepodnet.com>
+type: lib
+description: HX711 arduino library port to Mongoose OS
+version: 0.1
+
+
+sources:
+  - src
+
+
+filesystem:
+  - fs
+
+libs:
+  - origin: ../HX711  
+
+binary_libs:
+    - ../HX711/build/lib.a
+
+tags:
+  - c
+  - arduino
+
+manifest_version: 2017-09-29
