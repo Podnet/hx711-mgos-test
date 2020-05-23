@@ -21,6 +21,7 @@ void read_values2(void *arg)
     else
     {
         LOG(LL_INFO, ("TCU: Load cell: mgos_hx711_update function returned false."));
+        mgos_hx711_refresh_data_set(hx);
     }
 }
 
@@ -32,7 +33,7 @@ extern "C"
         hx = mgos_hx711_create(15, 13);
         mgos_hx711_set_gain(hx, 128);
         mgos_hx711_begin(hx);
-        mgos_hx711_set_cal_factor(hx, 12201); // Need to be calculated as per our load cell
+        mgos_hx711_set_cal_factor(hx, 2230); // Need to be calculated as per our load cell
         mgos_hx711_tare(hx);                  // Reset the tare to zero
 
         mgos_set_timer(3000, MGOS_TIMER_REPEAT, read_values2, NULL);
