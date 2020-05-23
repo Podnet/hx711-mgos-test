@@ -2,5 +2,5 @@
 
 ## Overview
 
-This is an test app, serves as a testing app for arduino ported HX711 lib.
+This serves as a testing app for arduino ported HX711 lib.
 
