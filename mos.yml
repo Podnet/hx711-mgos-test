@@ -1,6 +1,5 @@
 name: HX711-Test
 author: Hrithik Yadav <hrithikyadav@thepodnet.com>
-type: lib
 description: HX711 arduino library port to Mongoose OS
 version: 0.1
 

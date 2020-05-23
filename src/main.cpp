@@ -12,7 +12,7 @@ void read_values(){
 extern "C"{
 enum mgos_app_init_result mgos_app_init(void) {
   LOG(LL_INFO, ("TCU: Fetching Loadcell readings"));
-  mgos_hx711_create(10,13);
+  hx = mgos_hx711_create(10,13);
   mgos_hx711_set_gain(hx, 128);
   mgos_hx711_begin(hx);
   mgos_hx711_set_cal_factor(hx, 12546); // Need to be calculated as per our load cell
