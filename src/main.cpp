@@ -6,13 +6,7 @@ struct HX711_ADC *hx;
  *
  * \section Documentation
  *
- * This is the introduction.
- *
- * \section install_sec Installation
- *
- * \subsection step1 Step 1: Opening the box
- *
- * etc...
+ * This is a test app to read local cell values using HX711.
  */
 
 void read_values(void *arg)
